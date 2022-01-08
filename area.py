@@ -1,10 +1,11 @@
-from math import pi
 r = float(input ("Input the radius of the circle : "))
-print ("The area of the circle with radius 1.1 is: " + str(pi * r**2))
+area=str(3.14159 * r**2)
+print ("The area of the circle with radius 1.1 is: ",area)
 
-
-
+2nd task:
 for file name:
-  filename = input("Input the Filename: ")
+filename = input("Input the Filename: ")
 f_extns = filename.split(".")
-print ("The extension of the file is : " + repr(f_extns[-1]))
+file=repr(f_extns[-1])
+print ("The extension of the file is : ",file)
+
